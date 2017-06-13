@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="?dialogPreferredPadding"
+    android:paddingLeft="?dialogPreferredPadding"
+    android:paddingBottom="?dialogPreferredPadding"
+    android:paddingTop="?dialogPreferredPadding">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:id="@+id/show_title"
+        android:gravity="top"
+        android:textColorHint="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:cursorVisible="true"
+        android:textCursorDrawable="@null"
+        android:textSize="@dimen/body1_primary"
+        android:hint="标题:">
+
+    </EditText>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#ffffff"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:id="@+id/show_time"
+        android:gravity="top"
+        android:textColorHint="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:cursorVisible="true"
+        android:textCursorDrawable="@null"
+        android:textSize="@dimen/body1_primary"
+        android:hint="时间:">
+
+    </EditText>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#ffffff"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:id="@+id/show_input"
+        android:gravity="top"
+        android:hint="原文"
+        android:textColorHint="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:cursorVisible="true"
+        android:textCursorDrawable="@null"
+        android:textSize="@dimen/body1_primary" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#ffffff"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:id="@+id/show_output"
+        android:gravity="top"
+        android:hint="译文"
+        android:textColorHint="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:cursorVisible="true"
+        android:textCursorDrawable="@null"
+        android:textSize="@dimen/body1_primary" />
+
+
+
+</LinearLayout>
